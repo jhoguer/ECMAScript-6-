@@ -126,7 +126,6 @@ helloPromise()
   console.log(calc.sum(8, 3));
 
 import {hello} from './module';
-
 hello();
 
 function* helloWorld() {
@@ -139,3 +138,6 @@ function* helloWorld() {
 }
 
 const generatorHello = helloWorld();
+console.log(generatorHello.next().value)
+console.log(generatorHello.next().value)
+console.log(generatorHello.next().value)
